@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type : application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hcmtvbGlpbmkiLCJpZCI6IjY5NzA4ZWM4YjgyYzk2NTI1MjZlZThiOCIsImlhdCI6MTc2ODk4ODM4N30.3_pFX88eRTtN3CL7K2HKsy4PctUs_IgNDGgkxYjgdLE
+
+{
+    "title": "Pistin middlewareen userExtractorin",
+    "author": "Kuukeli",
+    "url": "www.fullstackopen.com",
+    "likes": 20
+}
